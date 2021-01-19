@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 
 import * as Styles from "./Layout.module.css";
@@ -19,9 +19,11 @@ const Layout = () => {
             </div>
 
             <div className={Styles.Main}>
-                <Route path="/" component={Home} exact />
-                <Route path="/field" component={Field} exact />
-                <Route path="/profile" component={Profile} exact />
+                <Switch>
+                    <Route path="/field" component={Field} />
+                    <Route path="/profile" component={Profile} />
+                    <Route path="/" component={Home} />
+                </Switch>
             </div>
 
             <div>

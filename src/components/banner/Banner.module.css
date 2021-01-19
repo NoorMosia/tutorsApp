@@ -1,10 +1,35 @@
 .Banner {
     width: 100%;
     height: 400px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-image: url("./../banner/banner.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
 }
 
 .Banner img {
     height: 100%;
     width: 100%;
+}
+
+.BannerText {
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+    background: rgba(5, 5, 5, 0.808);
+    width: 500px;
+    padding: 20px 40px;
+    top: 40px;
+    left: 10%;
+}
+
+.BannerText h2 {
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.BannerText p {
+    font-size: 24px;
 }

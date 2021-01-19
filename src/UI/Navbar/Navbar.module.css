@@ -2,19 +2,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bolder;
     height: 70px;
     padding: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 3px 6px rgb(194, 194, 194);
     text-transform: uppercase;
     padding: 0 20px 0 20px;
-    background: rgb(241, 241, 241);
     position: fixed;
     width: 100%;
     z-index: 2;
 }
 
+.FakeNav {
+    height: 79px;
+}
+
 .Logo {
-    width: 70px;
-    height: 40px;
+    width: 100px;
+    align-self: center;
 }
 
 .Logo img {
@@ -34,9 +40,12 @@
 }
 
 .LeftLinks div {
-    margin-left: 80px;
+    margin-left: 10px;
 }
 
+.Categories {
+    cursor: pointer;
+}
 
 .SearchInput {
     border: none;

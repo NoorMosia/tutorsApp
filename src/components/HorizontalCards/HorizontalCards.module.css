@@ -1,7 +1,6 @@
 .Title {
     font-weight: bolder;
-    padding-left: 12px;
-    margin-bottom: 24px;
+    margin: 10px 25px;
     text-transform: capitalize;
 }
 
@@ -13,8 +12,7 @@
 }
 
 .More {
-    display: block;
-    font-size: large;
+    font-size: 26px;
     font-weight: bolder;
-    padding: 14px 0 0 14px;
+    margin: 10px 30px;
 }

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 
 import * as Styles from './Card.module.css';
 import {
     MDBBtn, MDBCard, MDBCardBody, MDBCardImage,
-    MDBCardTitle, MDBCardText, MDBCol
+    MDBCardTitle, MDBCol
 } from 'mdbreact';
 
 const CardExample = props => {
@@ -17,10 +17,12 @@ const CardExample = props => {
                         waves />
                     <MDBCardBody>
                         <MDBCardTitle>{props.title}</MDBCardTitle>
-                        <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
-                        <Link to="home" >
-                            <MDBBtn >Click</MDBBtn>
-                        </Link>
+                        <div className={Styles.Center}>
+                            <Route to="home" >
+                                <MDBBtn color="orange">Find Tutors</MDBBtn>
+                            </Route>
+
+                        </div>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>

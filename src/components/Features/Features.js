@@ -1,9 +1,10 @@
 import React from "react";
+import * as Styles from "./Features.module.css";
 import { MDBRow, MDBCol, MDBIcon } from "mdbreact";
 
 const FeaturesPage = () => {
     return (
-        <section className="text-center my-5">
+        <section className={`text-center my-5" + ${Styles.Features}`}>
             <h2 className="h1-responsive font-weight-bold my-5">
                 Why is it so great?
         </h2>

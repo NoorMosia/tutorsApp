@@ -1,9 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom"
+
 import * as Styles from "./HorizontalCards.module.css"
 
 import Card from "./../Card/Card";
 
 const HorizontalCards = props => {
+    let cards = [];
+    for (let i = 0; i < 4; i++) {
+        cards.push
+            (
+                <Card
+                    title={props.data[i].name}
+                    key={props.data[i].name}
+                />)
+    }
     return (
         <div className={Styles.HorizontalCards}>
             <h2 className={Styles.Title}>
@@ -11,15 +22,14 @@ const HorizontalCards = props => {
             </h2>
 
             <div className={Styles.Cards}>
-                <Card title="Grade 9" />
-                <Card title="Grade 10" />
-                <Card title="Grade 11" />
-                <Card title="Grade 12" />
+                {cards}
             </div>
 
-            <a href="now" className={Styles.More}>
-                More
-            </a>
+            <div className={Styles.More}>
+                <Link to="/category/gradeschool" >
+                    More
+                </Link>
+            </div>
         </div>
     )
 }
