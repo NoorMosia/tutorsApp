@@ -1,0 +1,22 @@
+.Layout {
+    min-height: 100vh;
+}
+
+.Main {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+/* 
+.Navigation {
+} */
+
+.Left {
+    width: 20vw;
+    padding: 5px;
+}
+
+.Mid {
+    width: 80vw;
+    padding: 5px;
+}

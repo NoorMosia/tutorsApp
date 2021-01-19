@@ -1,0 +1,57 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    text-transform: uppercase;
+    padding: 0 20px 0 20px;
+    background: rgb(241, 241, 241);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.Logo {
+    width: 70px;
+    height: 40px;
+}
+
+.Logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.LeftLinks {
+    display: flex;
+}
+
+.LeftLinks div {
+    margin-left: 80px;
+}
+
+
+.SearchInput {
+    border: none;
+    border-bottom: 1px solid purple;
+}
+.SearchInput:focus {
+    outline-width: 0;
+}
+
+.RightLinks {
+    display: flex;
+}
+
+
+.RightLinks div {
+    margin-left: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,20 @@
+.Title {
+    font-weight: bolder;
+    padding-left: 12px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+
+.Cards {
+    display: flex;
+    overflow: scroll;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.More {
+    display: block;
+    font-size: large;
+    font-weight: bolder;
+    padding: 14px 0 0 14px;
+}
