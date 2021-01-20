@@ -1,10 +1,10 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 import * as Styles from './Card.module.css';
 import {
-    MDBBtn, MDBCard, MDBCardBody, MDBCardImage,
+    MDBBtn, MDBCard, MDBCardBody,
     MDBCardTitle, MDBCol
 } from 'mdbreact';
 
@@ -13,14 +13,13 @@ const CardExample = props => {
         <div className={Styles.Card}>
             <MDBCol style={{ maxWidth: "22rem" }}>
                 <MDBCard>
-                    <MDBCardImage className={`img-fluid ${Styles.Image}`} src={props.image}
-                        waves />
+                    <img className={Styles.Image} src={props.image} alt={props.title} />
                     <MDBCardBody>
                         <MDBCardTitle>{props.title}</MDBCardTitle>
                         <div className={Styles.Center}>
-                            <Route to="home" >
+                            <Link to={`/tutors/${props.title}`} >
                                 <MDBBtn color="orange">Find Tutors</MDBBtn>
-                            </Route>
+                            </Link>
 
                         </div>
                     </MDBCardBody>

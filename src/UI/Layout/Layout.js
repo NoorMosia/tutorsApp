@@ -4,7 +4,6 @@ import { Route, Switch } from "react-router-dom";
 
 import * as Styles from "./Layout.module.css";
 import Navbar from "../Navbar/Navbar";
-import Footer from "./../../components/Footer/Footer";
 
 
 import Home from "./../../containers/Home/Home";
@@ -28,9 +27,6 @@ const Layout = () => {
                 </Switch>
             </div>
 
-            <div>
-                <Footer></Footer>
-            </div>
 
         </div >
     )

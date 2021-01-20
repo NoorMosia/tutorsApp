@@ -8,35 +8,30 @@ const FeaturesPage = () => {
             <h2 className="h1-responsive font-weight-bold my-5">
                 Why is it so great?
         </h2>
-            <p className="lead w-responsive mx-auto mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam.
-        </p>
             <MDBRow>
                 <MDBCol md="4">
-                    <MDBIcon icon="chart-area" size="3x" className="red-text" />
-                    <h5 className="font-weight-bold my-4">Analytics</h5>
+                    <MDBIcon icon="book" size="3x" className="red-text" />
+                    <h5 className="font-weight-bold my-4">Notes</h5>
                     <p className=" mb-md-0 mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Reprehenderit maiores aperiam minima assumenda deleniti hic.
-            </p>
+                    </p>
                 </MDBCol>
                 <MDBCol md="4">
-                    <MDBIcon icon="book" size="3x" className="cyan-text" />
-                    <h5 className="font-weight-bold my-4">Tutorials</h5>
+                    <MDBIcon icon="users" size="3x" className="cyan-text" />
+                    <h5 className="font-weight-bold my-4">Group Livestream</h5>
                     <p className=" mb-md-0 mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Reprehenderit maiores aperiam minima assumenda deleniti hic.
-            </p>
+                    </p>
                 </MDBCol>
                 <MDBCol md="4">
-                    <MDBIcon far icon="comments" size="3x" className="orange-text" />
-                    <h5 className="font-weight-bold my-4">Support</h5>
+                    <MDBIcon far icon="user" size="3x" className="orange-text" />
+                    <h5 className="font-weight-bold my-4">1-on-1 Livestream</h5>
                     <p className=" mb-md-0 mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Reprehenderit maiores aperiam minima assumenda deleniti hic.
-            </p>
+                    </p>
                 </MDBCol>
             </MDBRow>
         </section>

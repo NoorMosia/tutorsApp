@@ -4,25 +4,25 @@ const data = {
             name: "grade 9",
             grade: 9,
             subjects: ["english", "mathematics"],
-            image: "https://pbs.twimg.com/profile_images/991727529898725376/5yNY1X3p_400x400.jpg"
+            image: process.env.PUBLIC_URL + 'assets/9.png'
         },
         {
             name: "grade 10",
             subjects: ["english", "mathematics"],
             grade: 10,
-            image: "https://pbs.twimg.com/profile_images/991727529898725376/5yNY1X3p_400x400.jpg"
+            image: process.env.PUBLIC_URL + 'assets/10.png'
         },
         {
             name: "grade 11",
             subjects: ["english", "mathematics"],
             grade: 11,
-            image: "https://pbs.twimg.com/profile_images/991727529898725376/5yNY1X3p_400x400.jpg"
+            image: process.env.PUBLIC_URL + 'assets/11.png'
         },
         {
             name: "grade 12",
             subjects: ["english", "mathematics"],
             grade: 12,
-            image: "https://pbs.twimg.com/profile_images/991727529898725376/5yNY1X3p_400x400.jpg"
+            image: process.env.PUBLIC_URL + 'assets/12.png'
         },
     ],
     webDevelopment: [
@@ -41,26 +41,26 @@ const data = {
         },
         {
             name: "angular",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
+            image: "https://miro.medium.com/max/2560/1*cGDDA2mfYkjiIhGaN8gDoA.png"
         }
 
     ],
     Programming: [
         {
             name: "javascript",
-            image: "https://miro.medium.com/max/720/1*LjR0UrFB2a__5h1DWqzstA.png"
+            image: "https://logodix.com/logo/374976.jpg"
         },
         {
             name: "python",
-            image: "https://pluralsight.imgix.net/paths/python-7be70baaac.png"
+            image: "https://images.ctfassets.net/3prze68gbwl1/asset-17suaysk1qa1jhl/d276861783e0ab0ffab32afcdc84d597/python-socket-programming.jpg?h=445&w=1024"
         },
         {
             name: "c++",
-            image: "https://webforpc.com/wp-content/uploads/2018/03/c-plus-plus-program-logo-image.png"
+            image: "https://engineering.fb.com/wp-content/uploads/2015/06/1522635669452_11.jpg"
         },
         {
             name: "c#",
-            image: "https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png"
+            image: "https://static.techspot.com/images2/news/bigimage/2019/09/2019-09-16-image-24.jpg"
         },
         {
             name: "java",

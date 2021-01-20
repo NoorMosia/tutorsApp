@@ -27,7 +27,7 @@ const HorizontalCards = props => {
             </div>
 
             <div className={Styles.More}>
-                <Link to="/category/gradeschool" >
+                <Link to={"/category/" + props.title} >
                     More
                 </Link>
             </div>
