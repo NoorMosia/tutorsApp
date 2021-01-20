@@ -4,6 +4,7 @@ import * as Styles from "./Home.module.css"
 import Banner from "./../../components/banner/Banner";
 import HorizontalCards from "./../../components/HorizontalCards/HorizontalCards";
 import Features from "./../../components/Features/Features";
+import Team from "../../components/Team/Team";
 
 import data from "../../store/egData";
 
@@ -41,6 +42,10 @@ const Home = () => {
 
             <div className={Styles.Feature}>
                 <Features></Features>
+            </div>
+
+            <div className={Styles.Feature}>
+                <Team></Team>
             </div>
         </div>
     )

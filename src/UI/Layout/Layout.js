@@ -10,6 +10,7 @@ import Footer from "./../../components/Footer/Footer";
 import Home from "./../../containers/Home/Home";
 import Field from "./../../containers/Field/Field";
 import Profile from "./../../containers/Profile/Profile";
+import SectionCourses from "./../../containers/SectionCourses/SectionCourses";
 
 const Layout = () => {
     return (
@@ -22,6 +23,7 @@ const Layout = () => {
                 <Switch>
                     <Route path="/field" component={Field} />
                     <Route path="/profile" component={Profile} />
+                    <Route path="/category/:id" component={SectionCourses} />
                     <Route path="/" component={Home} />
                 </Switch>
             </div>

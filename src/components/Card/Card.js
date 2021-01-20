@@ -13,7 +13,7 @@ const CardExample = props => {
         <div className={Styles.Card}>
             <MDBCol style={{ maxWidth: "22rem" }}>
                 <MDBCard>
-                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                    <MDBCardImage className={`img-fluid ${Styles.Image}`} src={props.image}
                         waves />
                     <MDBCardBody>
                         <MDBCardTitle>{props.title}</MDBCardTitle>

@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom"
 
 import * as Styles from "./HorizontalCards.module.css"
-
 import Card from "./../Card/Card";
 
 const HorizontalCards = props => {
@@ -12,8 +11,10 @@ const HorizontalCards = props => {
             (
                 <Card
                     title={props.data[i].name}
+                    image={props.data[i].image}
                     key={props.data[i].name}
-                />)
+                />
+            )
     }
     return (
         <div className={Styles.HorizontalCards}>
@@ -21,7 +22,7 @@ const HorizontalCards = props => {
                 {props.title}
             </h2>
 
-            <div className={Styles.Cards}>
+            <div className={Styles.CardsContainer}>
                 {cards}
             </div>
 

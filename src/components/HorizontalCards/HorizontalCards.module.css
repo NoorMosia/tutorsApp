@@ -4,7 +4,7 @@
     text-transform: capitalize;
 }
 
-.Cards {
+.CardsContainer {
     display: flex;
     overflow: scroll;
     max-width: 100%;
