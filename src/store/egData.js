@@ -4,25 +4,25 @@ const data = {
             name: "grade 9",
             grade: 9,
             subjects: ["english", "mathematics"],
-            image: process.env.PUBLIC_URL + 'assets/9.png'
+            image: process.env.PUBLIC_URL + '/assets/9.png'
         },
         {
             name: "grade 10",
             subjects: ["english", "mathematics"],
             grade: 10,
-            image: process.env.PUBLIC_URL + 'assets/10.png'
+            image: process.env.PUBLIC_URL + '/assets/10.png'
         },
         {
             name: "grade 11",
             subjects: ["english", "mathematics"],
             grade: 11,
-            image: process.env.PUBLIC_URL + 'assets/11.png'
+            image: process.env.PUBLIC_URL + '/assets/11.png'
         },
         {
             name: "grade 12",
             subjects: ["english", "mathematics"],
             grade: 12,
-            image: process.env.PUBLIC_URL + 'assets/12.png'
+            image: process.env.PUBLIC_URL + '/assets/12.png'
         },
     ],
     webDevelopment: [
