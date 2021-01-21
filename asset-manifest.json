@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/tutorsapp/static/css/main.72346012.chunk.css",
+    "main.js": "/tutorsapp/static/js/main.dc45f76d.chunk.js",
+    "main.js.map": "/tutorsapp/static/js/main.dc45f76d.chunk.js.map",
+    "runtime-main.js": "/tutorsapp/static/js/runtime-main.e12cbe5d.js",
+    "runtime-main.js.map": "/tutorsapp/static/js/runtime-main.e12cbe5d.js.map",
+    "static/css/2.16569ac7.chunk.css": "/tutorsapp/static/css/2.16569ac7.chunk.css",
+    "static/js/2.60b8ff96.chunk.js": "/tutorsapp/static/js/2.60b8ff96.chunk.js",
+    "static/js/2.60b8ff96.chunk.js.map": "/tutorsapp/static/js/2.60b8ff96.chunk.js.map",
+    "static/js/3.1f236f1c.chunk.js": "/tutorsapp/static/js/3.1f236f1c.chunk.js",
+    "static/js/3.1f236f1c.chunk.js.map": "/tutorsapp/static/js/3.1f236f1c.chunk.js.map",
+    "index.html": "/tutorsapp/index.html",
+    "static/css/2.16569ac7.chunk.css.map": "/tutorsapp/static/css/2.16569ac7.chunk.css.map",
+    "static/css/main.72346012.chunk.css.map": "/tutorsapp/static/css/main.72346012.chunk.css.map",
+    "static/js/2.60b8ff96.chunk.js.LICENSE.txt": "/tutorsapp/static/js/2.60b8ff96.chunk.js.LICENSE.txt",
+    "static/media/Ithute.b2ca882e.png": "/tutorsapp/static/media/Ithute.b2ca882e.png",
+    "static/media/mdb.css": "/tutorsapp/static/media/arrow_right.0897f985.svg",
+    "static/media/Banner.module.css": "/tutorsapp/static/media/banner.0c6d32a8.jpg",
+    "static/media/all.min.css": "/tutorsapp/static/media/fa-solid-900.f4f93856.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e12cbe5d.js",
+    "static/css/2.16569ac7.chunk.css",
+    "static/js/2.60b8ff96.chunk.js",
+    "static/css/main.72346012.chunk.css",
+    "static/js/main.dc45f76d.chunk.js"
+  ]
+}
