@@ -6,7 +6,7 @@ const FeaturesPage = () => {
     return (
         <section className={`text-center my-5" + ${Styles.Features}`}>
             <h2 className="h1-responsive font-weight-bold my-5">
-                Why is it so great?
+                Features
         </h2>
             <MDBRow>
                 <MDBCol md="4">
@@ -27,7 +27,7 @@ const FeaturesPage = () => {
                 </MDBCol>
                 <MDBCol md="4">
                     <MDBIcon far icon="user" size="3x" className="orange-text" />
-                    <h5 className="font-weight-bold my-4">1-on-1 Livestream</h5>
+                    <h5 className="font-weight-bold my-4">1-on-1 Video Calls</h5>
                     <p className=" mb-md-0 mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Reprehenderit maiores aperiam minima assumenda deleniti hic.
