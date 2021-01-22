@@ -11,6 +11,7 @@ const HorizontalCards = props => {
             (
                 <Card
                     title={props.data[i].name}
+                    id={props.data[i].id}
                     image={props.data[i].image}
                     key={props.data[i].name}
                 />

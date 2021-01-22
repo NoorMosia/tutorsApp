@@ -17,7 +17,7 @@ const CardExample = props => {
                     <MDBCardBody>
                         <MDBCardTitle>{props.title}</MDBCardTitle>
                         <div className={Styles.Center}>
-                            <Link to={`/tutors/${props.title}`} >
+                            <Link to={`/tutors/${props.id}`} >
                                 <MDBBtn color="orange">Find Tutors</MDBBtn>
                             </Link>
 
