@@ -2,10 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom"
 
 import Logo from "./Ithute.png";
-import { MDBBtn } from "mdbreact";
 import * as Styles from "./Navbar.module.css";
 
+import Modal from "../../components/Modal/Modal";
+import Login from "../../containers/Login/Login";
+import Signup from "../../containers/Signup/Signup";
+
 const Navbar = () => {
+
     return (
         <React.Fragment>
             <div className={Styles.Navbar} >
@@ -22,11 +26,15 @@ const Navbar = () => {
                     </div>
                     <div className={Styles.RightLinks}>
                         <div className={Styles.SignIn}>
-                            <MDBBtn color="white" className="font-weight-bold">Log in</MDBBtn>
+                            <Modal title="login" color="white">
+                                <Login></Login>
+                            </Modal>
                         </div>
-                        <div className={Styles.SignUp}>
-                            <MDBBtn color="dark" className="font-weight-bold">Sign Up</MDBBtn>
 
+                        <div className={Styles.SignUp}>
+                            <Modal title="signup" color="black">
+                                <Signup></Signup>
+                            </Modal>
                         </div>
 
                     </div>

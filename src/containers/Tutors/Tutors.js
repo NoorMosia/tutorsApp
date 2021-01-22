@@ -1,9 +1,9 @@
 import React from "react";
 
-const SectionCourses = () => {
+const SectionCourses = props => {
     return (
         <div>
-            Tutors Courses
+            Tutors Courses - {props.match.params.id}
         </div>
     )
 }
