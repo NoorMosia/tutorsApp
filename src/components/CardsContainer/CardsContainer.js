@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-import * as Styles from "./HorizontalCards.module.css"
-import Card from "./../Card/Card";
+import * as Styles from "./CardsContainer.module.css"
+import Card from "../Card/Card";
 
-const HorizontalCards = props => {
+const CardsContainer = props => {
     let cards = [];
     for (let i = 0; i < 4; i++) {
         cards.push
@@ -18,7 +18,7 @@ const HorizontalCards = props => {
             )
     }
     return (
-        <div className={Styles.HorizontalCards}>
+        <div>
             <h2 className={Styles.Title}>
                 {props.title}
             </h2>
@@ -36,4 +36,4 @@ const HorizontalCards = props => {
     )
 }
 
-export default HorizontalCards;
+export default CardsContainer;

@@ -1,11 +1,23 @@
 import React from "react";
 
-const SectionCourses = props => {
+import * as Styles from "./Tutors.module.css";
+
+import HorizontalCard from "../../components/HorizontalCard/HorizontalCard"
+
+const Tutors = props => {
     return (
-        <div>
-            Tutors Courses - {props.match.params.id}
+        <div className={Styles.Tutors}>
+            <div className={Styles.Heading}>
+                <h1> {props.title} Tutors</h1>
+            </div>
+
+            <HorizontalCard></HorizontalCard>
+            <HorizontalCard></HorizontalCard>
+            <HorizontalCard></HorizontalCard>
+            <HorizontalCard></HorizontalCard>
+            {props.match.params.id}
         </div>
     )
 }
 
-export default SectionCourses;
+export default Tutors;

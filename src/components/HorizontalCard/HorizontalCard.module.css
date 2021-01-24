@@ -1,0 +1,29 @@
+.HorizontalCard {
+    display: flex;
+    width: 80%;
+    box-shadow: 1px 3px 6px rgb(194, 194, 194);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.Left {
+    width: 20%;
+}
+
+.Right {
+    width: 80%;
+    margin-left: 20px;
+}
+
+.Title {
+    font-weight: bolder;
+}
+
+.Courses {
+    margin: 10px 0;
+}
+
+.Button {
+    display: block;
+    margin: 0 auto;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import * as Styles from "./Home.module.css"
 
 import Banner from "./../../components/banner/Banner";
-import HorizontalCards from "./../../components/HorizontalCards/HorizontalCards";
+import CardsContainer from "../../components/CardsContainer/CardsContainer";
 import Features from "./../../components/Features/Features";
 import Team from "../../components/Team/Team";
 import Footer from "./../../components/Footer/Footer";
@@ -21,21 +21,22 @@ const Home = () => {
 
                 <div className={Styles.Courses}>
                     <div className={Styles.CardsContainer}>
-                        <HorizontalCards
+                        <CardsContainer
                             title="grade school"
+                            id={data.id}
                             data={data.gradeSchool}
                         />
                     </div>
 
                     <div className={Styles.CardsContainer}>
-                        <HorizontalCards
+                        <CardsContainer
                             title="Programming"
                             data={data.Programming}
                         />
                     </div>
 
                     <div className={Styles.CardsContainer}>
-                        <HorizontalCards
+                        <CardsContainer
                             title="web development"
                             data={data.webDevelopment}
                         />
