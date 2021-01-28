@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import * as Styles from "./HorizontalCard.module.css";
 import {
     MDBBtn
@@ -27,16 +28,15 @@ const HorizontalCard = () => {
                     <MDBBtn rounded outline size="sm" color="black">physics</MDBBtn>
                     <MDBBtn rounded outline size="sm" color="black">mathematics</MDBBtn>
                     <MDBBtn rounded outline size="sm" color="black">mathematics</MDBBtn>
-                    <MDBBtn rounded outline size="sm" color="black">mathematics</MDBBtn>
-                    <MDBBtn rounded outline size="sm" color="black">mathematics</MDBBtn>
-                    <MDBBtn rounded outline size="sm" color="black">mathematics</MDBBtn>
                 </div>
                 <div className={Styles.Buttons}>
                     <MDBBtn color="orange">Bookmark</MDBBtn>
-                    <MDBBtn color="black">View Profile</MDBBtn>
+                    <Link to="/profile">
+                        <MDBBtn color="black">View Profile</MDBBtn>
+                    </Link>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

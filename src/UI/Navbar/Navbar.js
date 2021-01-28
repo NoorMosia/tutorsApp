@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <React.Fragment>
             <div className={Styles.Navbar} >
-                <Link to="profile" >
+                <Link to="/" >
                     <div className={Styles.Logo}>
                         <img src={Logo} className="rounded" alt="aligment" />
                     </div>

@@ -27,17 +27,17 @@ class TabsDefault extends Component {
                 <MDBContainer>
                     <MDBNav className="nav-tabs mt-5">
                         <MDBNavItem>
-                            <MDBNavLink link to="#" active={this.state.activeItem === "1"} onClick={this.toggle("1")} role="tab" >
+                            <MDBNavLink disabled link active={this.state.activeItem === "1"} onClick={this.toggle("1")} role="tab" >
                                 Profile
                             </MDBNavLink>
                         </MDBNavItem>
                         <MDBNavItem>
-                            <MDBNavLink link to="#" active={this.state.activeItem === "2"} onClick={this.toggle("2")} role="tab" >
+                            <MDBNavLink link active={this.state.activeItem === "2"} onClick={this.toggle("2")} role="tab" >
                                 My Courses
                             </MDBNavLink>
                         </MDBNavItem>
                         <MDBNavItem>
-                            <MDBNavLink link to="#" active={this.state.activeItem === "3"} onClick={this.toggle("3")} role="tab" >
+                            <MDBNavLink link active={this.state.activeItem === "3"} onClick={this.toggle("3")} role="tab" >
                                 Update
                             </MDBNavLink>
                         </MDBNavItem>
