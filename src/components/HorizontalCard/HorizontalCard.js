@@ -20,7 +20,7 @@ const HorizontalCard = () => {
             </div>
             <div className={Styles.Right}>
                 <div className={Styles.Title}>
-                    <h2>Noor Tshepo</h2>
+                    <h3>Noor Tshepo</h3>
                 </div>
                 <div className={Styles.Courses}>
                     Subjects:
@@ -28,6 +28,10 @@ const HorizontalCard = () => {
                     <MDBBtn rounded outline size="sm" color="black">physics</MDBBtn>
                     <MDBBtn rounded outline size="sm" color="black">mathematics</MDBBtn>
                     <MDBBtn rounded outline size="sm" color="black">mathematics</MDBBtn>
+                </div>
+                <div className={Styles.Courses}>
+                    Language:
+                    <MDBBtn rounded outline size="sm" color="black">English</MDBBtn>
                 </div>
                 <div className={Styles.Buttons}>
                     <MDBBtn color="orange">Bookmark</MDBBtn>
