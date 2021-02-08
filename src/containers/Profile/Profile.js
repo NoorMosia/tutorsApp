@@ -1,87 +1,45 @@
-import React, { Component } from "react";
+import React from "react";
 import * as Styles from "./Profile.module.css";
 
 
-import {
-    MDBContainer, MDBTabPane, MDBTabContent,
-    MDBNav, MDBNavItem, MDBNavLink
-} from "mdbreact";
-
-class TabsDefault extends Component {
-    state = {
-        activeItem: "1"
-    };
-
-    toggle = tab => e => {
-        if (this.state.activeItem !== tab) {
-            this.setState({
-                activeItem: tab
-            });
-        }
-    };
-
-    render() {
-        return (
-            <div className={Styles.Profile}>
-
-                <MDBContainer>
-                    <MDBNav className="nav-tabs mt-5">
-                        <MDBNavItem>
-                            <MDBNavLink disabled link active={this.state.activeItem === "1"} onClick={this.toggle("1")} role="tab" >
-                                Profile
-                            </MDBNavLink>
-                        </MDBNavItem>
-                        <MDBNavItem>
-                            <MDBNavLink link active={this.state.activeItem === "2"} onClick={this.toggle("2")} role="tab" >
-                                My Courses
-                            </MDBNavLink>
-                        </MDBNavItem>
-                        <MDBNavItem>
-                            <MDBNavLink link active={this.state.activeItem === "3"} onClick={this.toggle("3")} role="tab" >
-                                Update
-                            </MDBNavLink>
-                        </MDBNavItem>
-                    </MDBNav>
-                    <MDBTabContent activeItem={this.state.activeItem} >
-                        <MDBTabPane tabId="1" role="tabpanel">
-                            <p className="mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Nihil odit magnam minima, soluta doloribus reiciendis
-                                molestiae placeat unde eos molestias. Quisquam aperiam,
-                                pariatur. Tempora, placeat ratione porro voluptate odit
-                                minima.
-                            </p>
-                        </MDBTabPane>
-                        <MDBTabPane tabId="2" role="tabpanel">
-                            <p className="mt-2">
-                                Quisquam aperiam, pariatur. Tempora, placeat ratione porro
-                                voluptate odit minima. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Nihil odit magnam minima,
-                                soluta doloribus reiciendis molestiae placeat unde eos
-                                molestias.
-                            </p>
-                            <p>
-                                Quisquam aperiam, pariatur. Tempora, placeat ratione porro
-                                voluptate odit minima. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Nihil odit magnam minima,
-                                soluta doloribus reiciendis molestiae placeat unde eos
-                                molestias.
-                            </p>
-                        </MDBTabPane>
-                        <MDBTabPane tabId="3" role="tabpanel">
-                            <p className="mt-2">
-                                Quisquam aperiam, pariatur. Tempora, placeat ratione porro
-                                voluptate odit minima. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Nihil odit magnam minima,
-                                soluta doloribus reiciendis molestiae placeat unde eos
-                                molestias.
-                            </p>
-                        </MDBTabPane>
-                    </MDBTabContent>
-                </MDBContainer>
-
+const Profile = () => {
+    return (
+        <div className={Styles.Profile}>
+            <div className={Styles.Top}>
+                <div className={Styles.Image}>
+                    image
+                </div>
+                <div className={Styles.Details}>
+                    names and stuff
+                </div>
             </div>
-        );
-    }
+            <div className={Styles.Bottom}>
+                <div className={Styles.Links}>
+                    <div className={Styles.LinkHeading}>
+                        Timeline
+                    </div>
+                    <div className={Styles.LinkHeading}>
+                        Schedule
+                    </div>
+                    <div className={Styles.LinkHeading}>
+                        Resources
+                    </div>
+
+                </div>
+                <div className={Styles.ContentsContainer}>
+                    <div className={Styles.Contents}>
+                        Timeline Contents
+                    </div>
+                    <div className={Styles.LinkHeading}>
+                        Schedule Contents
+                    </div>
+                    <div className={Styles.LinkHeading}>
+                        Resources Contents
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
 }
-export default TabsDefault;
+
+export default Profile;

@@ -1,6 +1,19 @@
 .Profile {
     width: 100%;
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+.Profile div {
+    margin-bottom: 20px;
+}
+
+.Top {
+    display: flex;
+}
+
+
+.Links {
+    display: flex;
 }
