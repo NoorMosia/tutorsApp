@@ -1,0 +1,29 @@
+.Links {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.LinkHeading {
+    flex-grow: 1;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.LinkHeading:hover {
+    background-color: rgb(255, 222, 156);
+    -webkit-transition: background-color .3s linear;
+    -ms-transition: background-color .3s linear;
+    transition: background-color .3s linear;
+}
+
+
+.Contents {
+    color: red;
+    transition: color 2s;
+}

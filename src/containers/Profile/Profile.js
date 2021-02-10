@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import * as Styles from "./Profile.module.css";
 
 import Top from "./Top/Top";
+import Bottom from "./Bottom/Bottom";
+import Notice from "./../../components/Notice/Notice";
 
 
 const Profile = () => {
@@ -24,7 +26,9 @@ const Profile = () => {
         </div>)
     } else {
         contents = (<div className={Styles.Contents}>
-            Notices Contents
+            <Notice></Notice>
+            <Notice></Notice>
+            <Notice></Notice>
         </div>)
     }
 
@@ -40,29 +44,17 @@ const Profile = () => {
         noticesStyle = Styles.Active
     }
 
-
-
-
     return (
         <div className={`${Styles.Profile}`}>
             <Top />
-            <div className={Styles.Bottom}>
-                <div className={Styles.Links}>
-                    <div className={`${Styles.LinkHeading} ${noticesStyle}`} onClick={() => setCurrent("notices")}>
-                        Notices
-                    </div>
-                    <div className={`${Styles.LinkHeading} ${scheduleStyle}`} onClick={() => setCurrent("schedule")}>
-                        Schedule
-                    </div>
-                    <div className={`${Styles.LinkHeading} ${resourcesStyle}`} onClick={() => setCurrent("resources")}>
-                        Resources
-                    </div>
+            <Bottom
+                noticesStyle={noticesStyle}
+                scheduleStyle={scheduleStyle}
+                resourcesStyle={resourcesStyle}
+                contents={contents}
+                setCurrent={setCurrent}
+            />
 
-                </div>
-                <div className={Styles.ContentsContainer}>
-                    {contents}
-                </div>
-            </div>
         </div>
     )
 }
