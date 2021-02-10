@@ -1,0 +1,35 @@
+
+.Top {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Top .Image {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.Top .Image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Top .Details {
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.Names {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.Top .Details div {
+    margin-bottom: 10px;
+}
