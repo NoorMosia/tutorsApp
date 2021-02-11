@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import * as Styles from "./Top.module.css";
 
 const Top = () => {
@@ -27,6 +28,13 @@ const Top = () => {
                     </span>
                 </div>
             </div>
+
+            <Link to="/livestream/id">
+                <div className={Styles.Join}>
+                    Live
+                </div>
+            </Link>
+
         </div>
     )
 }

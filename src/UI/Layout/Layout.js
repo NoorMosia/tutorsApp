@@ -9,6 +9,7 @@ import Field from "./../../containers/Field/Field";
 import Profile from "./../../containers/Profile/Profile";
 import SectionCourses from "./../../containers/SectionCourses/SectionCourses";
 import Tutors from "./../../containers/Tutors/Tutors";
+import LiveClass from "./../../containers/LiveClass/LiveClass";
 
 const Layout = () => {
     return (
@@ -21,6 +22,7 @@ const Layout = () => {
                 <Switch>
                     <Route path="/field" component={Field} />
                     <Route path="/profile" component={Profile} />
+                    <Route path="/livestream/:id" component={LiveClass} />
                     <Route path="/category/:id" component={SectionCourses} />
                     <Route path="/tutors/:id" component={Tutors} />
                     <Route path="/" component={Home} />

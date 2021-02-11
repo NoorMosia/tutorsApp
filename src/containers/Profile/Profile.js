@@ -9,11 +9,6 @@ import Notice from "./../../components/Notice/Notice";
 const Profile = () => {
     const [current, setCurrent] = useState("notices")
 
-    // const changeCurrent = linkName => {
-    //     console.log("set" + linkName)
-    //     setCurrent(linkName)
-    // }
-
     let contents
 
     if (current === "resources") {

@@ -1,9 +1,10 @@
 import React from "react";
+import * as Styles from "./LiveClass.module.css";
 
 const LiveClass = () => {
     return (
-        <div>
-
+        <div className={Styles.LiveClass}>
+            You are Live
         </div>
     )
 }
