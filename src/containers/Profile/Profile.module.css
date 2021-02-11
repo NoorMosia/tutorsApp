@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto; 
-    background-image: linear-gradient(to bottom,rgb(225, 225, 225), white);
+    box-shadow: 1px 1px 5px rgb(231, 231, 231);
+    min-height: 100vh;
     padding: 20px;
 }
 

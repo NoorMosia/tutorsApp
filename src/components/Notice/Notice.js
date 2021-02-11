@@ -1,6 +1,7 @@
 import React from "react";
 import * as Styles from "./Notice.module.css";
 
+
 const Notice = () => {
     return (
         <div className={Styles.Notice}>
