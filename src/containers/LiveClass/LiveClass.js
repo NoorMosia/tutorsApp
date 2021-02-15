@@ -1,6 +1,7 @@
 import React from "react";
 import * as Styles from "./LiveClass.module.css";
 
+
 const LiveClass = () => {
     return (
         <div className={Styles.LiveClass}>

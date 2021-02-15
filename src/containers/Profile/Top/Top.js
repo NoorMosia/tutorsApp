@@ -29,7 +29,7 @@ const Top = () => {
                 </div>
             </div>
 
-            <Link to="/livestream/id">
+            <Link to="/room">
                 <div className={Styles.Join}>
                     Live
                 </div>

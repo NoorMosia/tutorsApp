@@ -10,6 +10,9 @@ import Profile from "./../../containers/Profile/Profile";
 import SectionCourses from "./../../containers/SectionCourses/SectionCourses";
 import Tutors from "./../../containers/Tutors/Tutors";
 import LiveClass from "./../../containers/LiveClass/LiveClass";
+import CreateRoom from "./../../containers/LiveClass/CreateRoom";
+import Room from "./../../containers/LiveClass/Room";
+
 
 const Layout = () => {
     return (
@@ -25,6 +28,8 @@ const Layout = () => {
                     <Route path="/livestream/:id" component={LiveClass} />
                     <Route path="/category/:id" component={SectionCourses} />
                     <Route path="/tutors/:id" component={Tutors} />
+                    <Route path="/room" exact component={CreateRoom} />
+                    <Route path="/room/:roomID" component={Room} />
                     <Route path="/" component={Home} />
                 </Switch>
             </div>
