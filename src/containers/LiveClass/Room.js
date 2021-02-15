@@ -24,7 +24,7 @@ const Video = (props) => {
         props.peer.on("stream", stream => {
             ref.current.srcObject = stream;
         })
-    }, []);
+    }, [props.peer]);
 
     return (
         <StyledVideo playsInline autoPlay ref={ref} />
