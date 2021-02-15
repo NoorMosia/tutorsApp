@@ -1,0 +1,29 @@
+.LiveClass {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.Teacher {
+    background-color: aqua;
+    width: 100%;
+    height: 400px;
+}
+
+.Students {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    
+}
+
+.Student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background: rgb(91, 143, 255);
+    width: 25%;
+    height: 150px;
+}
