@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/tutorsApp/static/css/main.fd68841f.chunk.css",
-    "main.js": "/tutorsApp/static/js/main.60f90f86.chunk.js",
-    "main.js.map": "/tutorsApp/static/js/main.60f90f86.chunk.js.map",
-    "runtime-main.js": "/tutorsApp/static/js/runtime-main.4173ef02.js",
-    "runtime-main.js.map": "/tutorsApp/static/js/runtime-main.4173ef02.js.map",
-    "static/css/2.b0c91c84.chunk.css": "/tutorsApp/static/css/2.b0c91c84.chunk.css",
-    "static/js/2.60b8ff96.chunk.js": "/tutorsApp/static/js/2.60b8ff96.chunk.js",
-    "static/js/2.60b8ff96.chunk.js.map": "/tutorsApp/static/js/2.60b8ff96.chunk.js.map",
-    "static/js/3.1f236f1c.chunk.js": "/tutorsApp/static/js/3.1f236f1c.chunk.js",
-    "static/js/3.1f236f1c.chunk.js.map": "/tutorsApp/static/js/3.1f236f1c.chunk.js.map",
+    "main.css": "/tutorsApp/static/css/main.91848c3d.chunk.css",
+    "main.js": "/tutorsApp/static/js/main.bc48c957.chunk.js",
+    "main.js.map": "/tutorsApp/static/js/main.bc48c957.chunk.js.map",
+    "runtime-main.js": "/tutorsApp/static/js/runtime-main.5d375c60.js",
+    "runtime-main.js.map": "/tutorsApp/static/js/runtime-main.5d375c60.js.map",
+    "static/css/2.e8eef617.chunk.css": "/tutorsApp/static/css/2.e8eef617.chunk.css",
+    "static/js/2.24fa609a.chunk.js": "/tutorsApp/static/js/2.24fa609a.chunk.js",
+    "static/js/2.24fa609a.chunk.js.map": "/tutorsApp/static/js/2.24fa609a.chunk.js.map",
+    "static/js/3.58ca8cd5.chunk.js": "/tutorsApp/static/js/3.58ca8cd5.chunk.js",
+    "static/js/3.58ca8cd5.chunk.js.map": "/tutorsApp/static/js/3.58ca8cd5.chunk.js.map",
     "index.html": "/tutorsApp/index.html",
-    "static/css/2.b0c91c84.chunk.css.map": "/tutorsApp/static/css/2.b0c91c84.chunk.css.map",
-    "static/css/main.fd68841f.chunk.css.map": "/tutorsApp/static/css/main.fd68841f.chunk.css.map",
-    "static/js/2.60b8ff96.chunk.js.LICENSE.txt": "/tutorsApp/static/js/2.60b8ff96.chunk.js.LICENSE.txt",
+    "static/css/2.e8eef617.chunk.css.map": "/tutorsApp/static/css/2.e8eef617.chunk.css.map",
+    "static/css/main.91848c3d.chunk.css.map": "/tutorsApp/static/css/main.91848c3d.chunk.css.map",
+    "static/js/2.24fa609a.chunk.js.LICENSE.txt": "/tutorsApp/static/js/2.24fa609a.chunk.js.LICENSE.txt",
     "static/media/Ithute.b2ca882e.png": "/tutorsApp/static/media/Ithute.b2ca882e.png",
     "static/media/mdb.css": "/tutorsApp/static/media/arrow_right.0897f985.svg",
     "static/media/Banner.module.css": "/tutorsApp/static/media/banner.0c6d32a8.jpg",
     "static/media/all.min.css": "/tutorsApp/static/media/fa-solid-900.f4f93856.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.4173ef02.js",
-    "static/css/2.b0c91c84.chunk.css",
-    "static/js/2.60b8ff96.chunk.js",
-    "static/css/main.fd68841f.chunk.css",
-    "static/js/main.60f90f86.chunk.js"
+    "static/js/runtime-main.5d375c60.js",
+    "static/css/2.e8eef617.chunk.css",
+    "static/js/2.24fa609a.chunk.js",
+    "static/css/main.91848c3d.chunk.css",
+    "static/js/main.bc48c957.chunk.js"
   ]
 }
