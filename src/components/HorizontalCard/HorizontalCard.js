@@ -34,7 +34,7 @@ const HorizontalCard = () => {
                     <span className={Styles.Pill}>English</span>
                 </div>
                 <div className={Styles.Buttons}>
-                    <MDBBtn color="orange">Bookmark</MDBBtn>
+                    {/* <MDBBtn color="orange">Bookmark</MDBBtn> */}
                     <Link to="/profile">
                         <MDBBtn color="black">View Profile</MDBBtn>
                     </Link>

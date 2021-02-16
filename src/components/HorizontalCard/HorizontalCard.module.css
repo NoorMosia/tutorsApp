@@ -4,6 +4,7 @@
     box-shadow: 1px 3px 6px rgb(194, 194, 194);
     margin: 40px auto;
     padding: 20px;
+    cursor: pointer;
 }
 
 .Left {

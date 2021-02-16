@@ -1,0 +1,18 @@
+User    - name, surname
+        - email
+        - Auth details
+        - Language
+        
+        - Following
+        - Subscribed to
+
+Teacher - {...User}
+        - Followers
+        - Subscribers 
+        - Schedule
+        - Resources
+        - Subjects
+        - 1-on-1 times
+
+
+Subjects - Array with all available subjects.
