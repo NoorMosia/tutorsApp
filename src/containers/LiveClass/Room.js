@@ -1,24 +1,27 @@
 import React, { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 import Peer from "simple-peer";
-import styled from "styled-components";
+// import styled from "styled-components";
 
-const Container = styled.div`
-    padding: 20px;
-    display: flex;
-    height: 100vh;
-    width: 90%;
-    margin: auto;
-    flex-wrap: wrap;
-`;
+import * as Styles from "./LiveClass.module.css"
 
-const StyledVideo = styled.video`
-    height: 40%;
-    width: 50%;
-`;
+// const Container = styled.div`
+//     padding: 20px;
+//     display: flex;
+//     height: 100vh;
+//     width: 90%;
+//     margin: auto;
+//     flex-wrap: wrap;
+// `;
+
+// const StyledVideo = styled.video`
+//     height: 40%;
+//     width: 50%;
+// `;
 
 const Video = (props) => {
     const ref = useRef();
+    console.log("WE MADE IT")
 
     useEffect(() => {
         props.peer.on("stream", stream => {
@@ -27,7 +30,9 @@ const Video = (props) => {
     }, [props.peer]);
 
     return (
-        <StyledVideo playsInline autoPlay ref={ref} />
+        <div className={Styles.Student}>
+            <video playsInline autoPlay ref={ref} />
+        </div>
     );
 }
 
@@ -77,7 +82,7 @@ const Room = (props) => {
                 item.peer.signal(payload.signal);
             });
         })
-    }, []);
+    }, [roomID]);
 
     function createPeer(userToSignal, callerID, stream) {
         const peer = new Peer({
@@ -97,6 +102,7 @@ const Room = (props) => {
         const peer = new Peer({
             initiator: false,
             trickle: false,
+            aaaaaa: false,
             stream,
         })
 
@@ -110,14 +116,19 @@ const Room = (props) => {
     }
 
     return (
-        <Container>
-            <StyledVideo muted ref={userVideo} autoPlay playsInline />
-            {peers.map((peer, index) => {
-                return (
-                    <Video key={index} peer={peer} />
-                );
-            })}
-        </Container>
+        <div className={Styles.LiveClass}>
+            <div className={Styles.Teacher}>
+                <video muted ref={userVideo} autoPlay playsInline />
+            </div>
+            <div className={Styles.Students}>
+                {peers.map((peer, index) => {
+                    console.log(peer)
+                    return (
+                        <Video key={index} peer={peer} />
+                    );
+                })}
+            </div>
+        </div>
     );
 };
 

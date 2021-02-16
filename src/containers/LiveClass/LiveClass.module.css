@@ -23,7 +23,11 @@
     justify-content: center;
     align-items: center;
     border: 2px solid white;
-    background: rgb(91, 143, 255);
     width: 25%;
     height: 150px;
+}
+
+video {
+    height: 100%;
+    width: 100%;
 }
