@@ -102,7 +102,6 @@ const Room = (props) => {
         const peer = new Peer({
             initiator: false,
             trickle: false,
-            aaaaaa: false,
             stream,
         })
 

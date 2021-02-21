@@ -20,7 +20,7 @@ const HorizontalCard = () => {
             </div>
             <div className={Styles.Right}>
                 <div className={Styles.Title}>
-                    <h3>Noor Tshepo</h3>
+                    <h4>Noor Tshepo</h4>
                 </div>
                 <div className={Styles.Courses}>
                     Subjects:
