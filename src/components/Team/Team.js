@@ -12,12 +12,12 @@ const TeamPage = () => {
                     <MDBCol md="4" className="mb-md-0 mb-5">
                         <img
                             tag="img"
-                            src={`${process.env.PUBLIC_URL}/assets/noor.jpg`}
+                            src={`${process.env.PUBLIC_URL}/assets/team/2.jpg`}
                             className="rounded z-depth-1-half img-fluid"
                             alt="Sample avatar"
                         />
                         <h4 className="font-weight-bold dark-grey-text my-4">
-                            Noor Tshepo Mosia
+                            Kevin Washington
                         </h4>
                         <h6 className="text-uppercase mb-3">UI/UX designer</h6>
                         <MDBBtn tag="a" size="sm" className="mx-1 mb-0 btn-fb">
@@ -34,12 +34,12 @@ const TeamPage = () => {
                     <MDBCol md="4" className="mb-md-0 mb-5">
                         <img
                             tag="img"
-                            src={`${process.env.PUBLIC_URL}/assets/noor.jpg`}
+                            src={`${process.env.PUBLIC_URL}/assets/team/1.jpg`}
                             className="rounded z-depth-1-half img-fluid"
                             alt="Sample avatar"
                         />
                         <h4 className="font-weight-bold dark-grey-text my-4">
-                            Noor Tshepo Mosia
+                            Jody Langley
                         </h4>
                         <h6 className="text-uppercase mb-3">
                             Front-end Developer
@@ -58,12 +58,12 @@ const TeamPage = () => {
                     <MDBCol md="4" className="mb-md-0 mb-5">
                         <img
                             tag="img"
-                            src={`${process.env.PUBLIC_URL}/assets/noor.jpg`}
+                            src={`${process.env.PUBLIC_URL}/assets/team/3.jpg`}
                             className="rounded z-depth-1-half img-fluid"
                             alt="Sample avatar"
                         />
                         <h4 className="font-weight-bold dark-grey-text my-4">
-                            Noor Tshepo Mosia
+                            Jules Madden
                         </h4>
                         <h6 className="text-uppercase mb-3">backend engineer</h6>
                         <MDBBtn tag="a" size="sm" className="mx-1 mb-0 btn-fb">

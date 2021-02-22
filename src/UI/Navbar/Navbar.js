@@ -20,9 +20,9 @@ const Navbar = () => {
                 </Link>
                 <div className={Styles.Links}>
                     <div className={Styles.LeftLinks}>
-                        <div className={Styles.Categories}>
+                        {/* <div className={Styles.Categories}>
                             categories
-                    </div>
+                        </div> */}
                     </div>
                     <div className={Styles.RightLinks}>
                         <div className={Styles.SignIn}>

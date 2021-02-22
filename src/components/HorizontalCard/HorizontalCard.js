@@ -12,7 +12,7 @@ const HorizontalCard = () => {
                 <div className={Styles.Image}>
                     <img
                         tag="img"
-                        src={`${process.env.PUBLIC_URL}/assets/noor.jpg`}
+                        src={`${process.env.PUBLIC_URL}/assets/team/2.jpg`}
                         className="rounded z-depth-1-half img-fluid"
                         alt="Sample avatar"
                     />

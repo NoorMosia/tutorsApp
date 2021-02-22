@@ -2,6 +2,9 @@
     font-weight: bolder;
     margin: 10px 25px;
     text-transform: capitalize;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .CardsContainer {
