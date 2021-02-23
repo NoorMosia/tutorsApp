@@ -21,7 +21,6 @@ import * as Styles from "./LiveClass.module.css"
 
 const Video = (props) => {
     const ref = useRef();
-    console.log("WE MADE IT")
 
     useEffect(() => {
         props.peer.on("stream", stream => {
@@ -31,7 +30,7 @@ const Video = (props) => {
 
     return (
         <div className={Styles.Student}>
-            <video playsInline autoPlay ref={ref} />
+            <video controls={true} playsInline autoPlay ref={ref} />
         </div>
     );
 }
@@ -51,7 +50,7 @@ const Room = (props) => {
 
     useEffect(() => {
         socketRef.current = io.connect("/");
-        navigator.mediaDevices.getUserMedia({ video: videoConstraints, audio: true }).then(stream => {
+        navigator.mediaDevices.getUserMedia({ video: videoConstraints, audio: false }).then(stream => {
             userVideo.current.srcObject = stream;
             socketRef.current.emit("join room", roomID);
             socketRef.current.on("all users", users => {
@@ -117,11 +116,11 @@ const Room = (props) => {
     return (
         <div className={Styles.LiveClass}>
             <div className={Styles.Teacher}>
-                <video muted ref={userVideo} autoPlay playsInline />
+                {console.log(userVideo)}
+                <video controls={true} muted ref={userVideo} autoPlay playsInline />
             </div>
             <div className={Styles.Students}>
                 {peers.map((peer, index) => {
-                    console.log(peer)
                     return (
                         <Video key={index} peer={peer} />
                     );

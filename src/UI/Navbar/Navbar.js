@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-import Logo from "./Ithute.png";
+import Logo from "./logo.png";
 import * as Styles from "./Navbar.module.css";
 
 import Modal from "../../components/Modal/Modal";
@@ -9,11 +9,10 @@ import Login from "../../containers/Login/Login";
 import Signup from "../../containers/Signup/Signup";
 
 const Navbar = () => {
-
     return (
         <React.Fragment>
             <div className={Styles.Navbar} >
-                <Link to="/" >
+                <Link to="/" className={Styles.Logo} >
                     <div className={Styles.Logo}>
                         <img src={Logo} className="rounded" alt="aligment" />
                     </div>
