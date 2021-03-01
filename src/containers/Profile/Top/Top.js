@@ -7,7 +7,7 @@ const Top = () => {
         <div className={Styles.Top}>
             <div className={Styles.Image}>
                 <img
-                    src={`${process.env.PUBLIC_URL}/assets/noor.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/team/2.jpg`}
                     alt="user"
                 />
             </div>
